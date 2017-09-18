@@ -70,8 +70,8 @@ function loadDoc() {
 		xhttp.open("GET", "http://mesu.apple.com/assets/com_apple_MobileAsset_SoftwareUpdate/com_apple_MobileAsset_SoftwareUpdate.xml", true);
 	};
   //xhttp.open("GET", "https://crossorigin.me/http://mesu.apple.com/assets/com_apple_MobileAsset_SoftwareUpdate/com_apple_MobileAsset_SoftwareUpdate.xml", true);
-  //xhttp.open("GET", "https://cors-anywhere.herokuapp.com/http://mesu.apple.com/assets/com_apple_MobileAsset_SoftwareUpdate/com_apple_MobileAsset_SoftwareUpdate.xml", true);
-	xhttp.open("GET", "https://crossorigin.me/http://mesu.apple.com/assets/com_apple_MobileAsset_SoftwareUpdate/com_apple_MobileAsset_SoftwareUpdate.xml", true);
+  xhttp.open("GET", "https://cors-anywhere.herokuapp.com/http://mesu.apple.com/assets/com_apple_MobileAsset_SoftwareUpdate/com_apple_MobileAsset_SoftwareUpdate.xml", true);
+  //xhttp.open("GET", "https://crossorigin.me/http://mesu.apple.com/assets/com_apple_MobileAsset_SoftwareUpdate/com_apple_MobileAsset_SoftwareUpdate.xml", true);
 	xhttp.send();
 }
 
